@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    margin: 0;
+}
+
+header{
+    position: relative;
+    border-bottom: 3px solid hsla(300, 1%, 25%, 0.315);
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header ul{
+    display: absolute;
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+    padding: auto;
+}
+
+header li{
+    font-size: 20px;
+    position: relative;
+    list-style: none;
+    margin: 5px auto;
+    padding: 10px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(121, 120, 120, 1);
+}
+
+a:hover {
+    color: rgba(0, 15, 15, 1);
+}
